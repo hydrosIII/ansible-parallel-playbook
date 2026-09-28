@@ -1,1 +1,2 @@
 # ansible-parallel-playbook
+Ansible parallel playhbook is a bash script that uses gnu parallel to use all the cores in a machine. This script attempts to mimic the ansible-playbook API but parallelizes the ansible processed. Thus accelerating the run of an ansible playbook job. This could deliver faster response times up to 10x or more depending on the machine used. Since it uses perl an bash it is compatible with old *NIX systems. 
